@@ -24,7 +24,7 @@ npm install
 npm start
 ```
 
-Visit [http://localhost:4000/graphql](http://localhost:4000/graphql). You will see the Apollo playground. There you can run following query and mutation
+Visit [http://localhost:4000/auth/facebook](http://localhost:4000/auth/facebook). You will be redirected to the Facebook login page. After you logged in you will be redirected to the Apollo playground at [http://localhost:4000/graphql](http://localhost:4000/graphql). You can then run the current user query to fetch your Facebook profile's data.
 
 ```graphql
 query {

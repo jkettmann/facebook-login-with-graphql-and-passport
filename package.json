@@ -1,7 +1,7 @@
 {
-  "name": "authentication-with-graphql-passport-and-react-starter",
+  "name": "authentication-with-graphql-passport-and-react-facebook-login",
   "version": "0.1.0",
-  "description": "Starter project accompanying a series of articles on authentication with GraphQL",
+  "description": "Example project accompanying an article on Facebook login with GraphQL which is part of a series on authentication with GraphQL",
   "keywords": [
     "graphql",
     "auth",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jkettmann/authentication-with-graphql-passport-and-react-starter.git"
+    "url": "git://github.com/jkettmann/authentication-with-graphql-passport-and-react-facebook-login.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -25,6 +25,7 @@
     "graphql": "^14.5.8",
     "nodemon": "^1.19.3",
     "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
