@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express from 'express';
 import session from 'express-session';
 import uuid from 'uuid/v4';
@@ -12,8 +13,8 @@ const PORT = 4000;
 const SESSION_SECRECT = 'bad secret';
 
 const facebookOptions = {
-  clientID: YOUR_FACEBOOK_CLIENT_ID,
-  clientSecret: YOUR_FACEBOOK_APP_SECRET,
+  clientID: process.env.FACEBOOK_APP_ID,
+  clientSecret: process.env.FACEBOOK_APP_SECRET,
   callbackURL: 'http://localhost:4000/auth/facebook/callback',
   profileFields: ['id', 'email', 'first_name', 'last_name'],
 };
