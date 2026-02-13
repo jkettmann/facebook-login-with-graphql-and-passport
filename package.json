@@ -21,7 +21,7 @@
   "dependencies": {
     "apollo-server-express": "^2.9.6",
     "dotenv": "^8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.22.1",
     "express-session": "^1.17.0",
     "graphql": "^14.5.8",
     "nodemon": "^1.19.3",
@@ -29,7 +29,7 @@
     "passport-facebook": "^3.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "uuid": "^3.3.3"
   },
   "scripts": {
